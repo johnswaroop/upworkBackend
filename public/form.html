@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="jobForm">
+        <h1>JOB TRAINING</h1>
+        <div class="head"></div>
+        <label for="jobTitle">Job Title / Task :</label>
+        <input type="text" name="jobTitle">
+        <label for="jobDis">Job Discription :</label>
+        <textarea name="jobDis" id="jobDis" cols="30" rows="10"></textarea>
+
+        <label for="skillSet">Skill Set :</label>
+        <input type="text" name="skillSet">
+        <label for="date">Starting Date :</label>
+        <input id="date" type="date" name="date">
+        <label for="budget">Budget :</label>
+        <input id="range" type="range" min="1000" max="10000" name="budget">
+
+        <div class="row"> <label for="name">Send notification :</label> <input name="check" type="checkbox" id="check">
+        </div>
+
+        <button>Post Job</button>
+
+    </section>
+
+    <section class="jobForm">
+        <h1 slot="margin: 1.5rem">Trainer Profile</h1>
+
+        <div class="rowForm">
+
+
+
+            <div class="columnLabel">
+                <label for="">First Name :</label>
+                <input name="firstName" type="text">
+            </div>
+
+            <div class="columnLabel">
+                <label for="">Last Name :</label>
+                <input name="lastName" type="text">
+            </div>
+
+        </div>
+
+        <label for="exp">Experience :</label>
+        <select id="exp" name="exp" type="text">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="10">7</option>
+        </select>
+
+        <label for="">Upload Profile Image :</label>
+        <div class="upload-box">
+
+            <p id="profile-path"></p>
+            <button id="upload-btn">
+
+                <label id="upload-label" for="profile">Upload</label>
+                <input type="file" name="profile" id="profile" style="display: none;">
+
+            </button>
+        </div>
+
+        <label for="">Current Job Discription :</label>
+        <textarea name="" id="j-Dis" cols="30" rows="10"></textarea>
+
+        <label for="">Upload Resume :</label>
+        <div class="upload-box">
+
+            <p id="resume-path"></p>
+            <button id="upload-btn">
+
+                <label id="upload-label" for="resume">Upload</label>
+                <input type="file" name="resume" id="resume" style="display: none;">
+
+            </button>
+        </div>
+
+        <label for="exp">Skill Set :</label>
+        <select id="exp" name="exp" type="text">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="10">7</option>
+        </select>
+
+        <div class="row"> <label for="name">Job Support :</label> <input name="check" type="checkbox" id="check">
+        </div>
+
+        <div class="row"> <label for="name">Job Discription :</label> <input name="check" type="checkbox" id="check">
+        </div>
+
+        <div class="row"> <label for="name">Job Interview Support :</label> <input name="check" type="checkbox"
+                id="check">
+        </div>
+
+        <div class="row"> <label for="name">Profile Marketting :</label> <input name="check" type="checkbox" id="check">
+        </div>
+
+
+
+
+        <button>Post Job</button>
+
+    </section>
+
+
+</body>
+
+</html>

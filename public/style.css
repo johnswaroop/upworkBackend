@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #002942;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 5vh;
+}
+
+nav #logo {
+  margin: 0 0.5rem 0;
+  width: 5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+nav .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 4rem;
+  height: 3vh;
+  border-radius: 50px;
+  background-color: white;
+  margin: auto 0 auto;
+}
+
+nav .search img {
+  margin: auto 1rem auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 2vh;
+}
+
+nav .search input {
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border: none;
+  padding: 0 0rem 0;
+  font-size: 0.8rem;
+  color: #b6b6b6;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: auto 1rem auto;
+  margin-left: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav ul li {
+  margin: 0 1rem 0;
+  color: #ececec;
+  font-size: 0.75rem;
+}
+
+nav button {
+  background-color: #41f087;
+  border-radius: 50px;
+  width: 6rem;
+  height: 3vh;
+  border: none;
+  margin: auto 1rem auto;
+  color: #002942;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 65vh;
+  background: url(./images/banner.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sub-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 4vh;
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 15px #444444;
+          box-shadow: 1px 3px 15px #444444;
+}
+
+.sub-nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0 auto;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.sub-nav ul li {
+  color: #464646;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: auto 1rem auto;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.jobForm {
+  -webkit-box-shadow: 1px 1px 15px #c4c4c4;
+          box-shadow: 1px 1px 15px #c4c4c4;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem auto 3rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  border-top: 5px;
+}
+
+.jobForm label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 1rem 0 0.8rem;
+  font-size: 0.9rem;
+  color: #3a3a3a;
+}
+
+.jobForm input,
+.jobForm select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40rem;
+  margin: 0 0 1.5rem;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  height: 2rem;
+  padding: 0 1rem 0;
+}
+
+.jobForm input:focus,
+.jobForm select:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px #c5c5c5;
+          box-shadow: 1px 1px 5px #c5c5c5;
+}
+
+.jobForm #date {
+  width: 10rem;
+}
+
+.jobForm #jobDis,
+.jobForm #j-Dis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40rem;
+  margin: 0 0 1.5rem;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.jobForm #jobDis:focus,
+.jobForm #j-Dis:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px #c5c5c5;
+          box-shadow: 1px 1px 5px #c5c5c5;
+}
+
+.jobForm #range {
+  width: 20rem;
+  outline: none;
+  border-radius: 30px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+       appearance: none;
+  width: 500px;
+  height: 7px;
+  background: #e9e9e9;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 20px;
+  display: block;
+}
+
+.jobForm #check {
+  width: 1rem;
+}
+
+.jobForm #check:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.jobForm .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 1rem 0 0;
+}
+
+.jobForm .row label {
+  margin: auto 0 auto;
+}
+
+.jobForm .row input {
+  margin: auto 1rem auto;
+}
+
+.jobForm button {
+  background-color: #002942;
+  border-radius: 15px;
+  border: none;
+  width: 7rem;
+  height: 1.8rem;
+  color: white;
+  margin: 4rem auto 2rem;
+}
+
+.jobForm button:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px #c5c5c5;
+          box-shadow: 1px 1px 5px #c5c5c5;
+}
+
+.jobForm h1 {
+  margin: 0 auto 0;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1.5rem;
+  color: #002942;
+  font-size: 2rem;
+}
+
+.jobForm #upload-btn {
+  color: white;
+  margin: 0;
+  border-radius: 15px;
+  background-color: #e9e9e9;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0;
+  height: 2rem;
+}
+
+.jobForm #upload-label {
+  color: black;
+  padding: 0 1rem 0;
+}
+
+.jobForm .upload-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  height: 2rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 0 1.5rem;
+}
+
+.jobForm .upload-box p {
+  margin: 0 1rem 0;
+  color: gray;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  min-width: 20rem;
+}
+
+.jobForm .rowForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 4rem;
+}
+
+.jobForm .rowForm .columnLabel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jobForm .rowForm .columnLabel input {
+  width: 17rem;
+}
+
+.con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.con img {
+  height: 30rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-left: 10rem;
+}
+
+.title {
+  margin: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
