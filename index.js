@@ -11,7 +11,7 @@ app.use(Express.static(staticPath));
 
 
 app.get('/', (req, res) => {
-    res.send("lol")
+    // res.send("lol")
 })
 
 app.listen(port, () => console.log("listening on " + port));
